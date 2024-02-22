@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9C4E1E02B87BCAC00D443B3 /* CephriusExpenseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1DF2B87BCAC00D443B3 /* CephriusExpenseApp.swift */; };
+		A9C4E1E22B87BCAC00D443B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1E12B87BCAC00D443B3 /* ContentView.swift */; };
+		A9C4E1E42B87BCAE00D443B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C4E1E32B87BCAE00D443B3 /* Assets.xcassets */; };
+		A9C4E1E72B87BCAE00D443B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C4E1E62B87BCAE00D443B3 /* Preview Assets.xcassets */; };
+		A9C4E1F12B87BCAE00D443B3 /* CephriusExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1F02B87BCAE00D443B3 /* CephriusExpenseTests.swift */; };
+		A9C4E1FB2B87BCAE00D443B3 /* CephriusExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1FA2B87BCAE00D443B3 /* CephriusExpenseUITests.swift */; };
+		A9C4E1FD2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1FC2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9C4E1ED2B87BCAE00D443B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4E1D42B87BCAC00D443B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C4E1DB2B87BCAC00D443B3;
+			remoteInfo = CephriusExpense;
+		};
+		A9C4E1F72B87BCAE00D443B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9C4E1D42B87BCAC00D443B3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9C4E1DB2B87BCAC00D443B3;
+			remoteInfo = CephriusExpense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9C4E1DC2B87BCAC00D443B3 /* CephriusExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CephriusExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C4E1DF2B87BCAC00D443B3 /* CephriusExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CephriusExpenseApp.swift; sourceTree = "<group>"; };
+		A9C4E1E12B87BCAC00D443B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A9C4E1E32B87BCAE00D443B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A9C4E1E62B87BCAE00D443B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A9C4E1EC2B87BCAE00D443B3 /* CephriusExpenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CephriusExpenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C4E1F02B87BCAE00D443B3 /* CephriusExpenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CephriusExpenseTests.swift; sourceTree = "<group>"; };
+		A9C4E1F62B87BCAE00D443B3 /* CephriusExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CephriusExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C4E1FA2B87BCAE00D443B3 /* CephriusExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CephriusExpenseUITests.swift; sourceTree = "<group>"; };
+		A9C4E1FC2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CephriusExpenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9C4E1D92B87BCAC00D443B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C4E1E92B87BCAE00D443B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C4E1F32B87BCAE00D443B3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9C4E1D32B87BCAC00D443B3 = {
+			isa = PBXGroup;
+			children = (
+				A9C4E1DE2B87BCAC00D443B3 /* CephriusExpense */,
+				A9C4E1EF2B87BCAE00D443B3 /* CephriusExpenseTests */,
+				A9C4E1F92B87BCAE00D443B3 /* CephriusExpenseUITests */,
+				A9C4E1DD2B87BCAC00D443B3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9C4E1DD2B87BCAC00D443B3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4E1DC2B87BCAC00D443B3 /* CephriusExpense.app */,
+				A9C4E1EC2B87BCAE00D443B3 /* CephriusExpenseTests.xctest */,
+				A9C4E1F62B87BCAE00D443B3 /* CephriusExpenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C4E1DE2B87BCAC00D443B3 /* CephriusExpense */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4E1DF2B87BCAC00D443B3 /* CephriusExpenseApp.swift */,
+				A9C4E1E12B87BCAC00D443B3 /* ContentView.swift */,
+				A9C4E1E32B87BCAE00D443B3 /* Assets.xcassets */,
+				A9C4E1E52B87BCAE00D443B3 /* Preview Content */,
+			);
+			path = CephriusExpense;
+			sourceTree = "<group>";
+		};
+		A9C4E1E52B87BCAE00D443B3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4E1E62B87BCAE00D443B3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A9C4E1EF2B87BCAE00D443B3 /* CephriusExpenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4E1F02B87BCAE00D443B3 /* CephriusExpenseTests.swift */,
+			);
+			path = CephriusExpenseTests;
+			sourceTree = "<group>";
+		};
+		A9C4E1F92B87BCAE00D443B3 /* CephriusExpenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A9C4E1FA2B87BCAE00D443B3 /* CephriusExpenseUITests.swift */,
+				A9C4E1FC2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift */,
+			);
+			path = CephriusExpenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9C4E1DB2B87BCAC00D443B3 /* CephriusExpense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C4E2002B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpense" */;
+			buildPhases = (
+				A9C4E1D82B87BCAC00D443B3 /* Sources */,
+				A9C4E1D92B87BCAC00D443B3 /* Frameworks */,
+				A9C4E1DA2B87BCAC00D443B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CephriusExpense;
+			productName = CephriusExpense;
+			productReference = A9C4E1DC2B87BCAC00D443B3 /* CephriusExpense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9C4E1EB2B87BCAE00D443B3 /* CephriusExpenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C4E2032B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpenseTests" */;
+			buildPhases = (
+				A9C4E1E82B87BCAE00D443B3 /* Sources */,
+				A9C4E1E92B87BCAE00D443B3 /* Frameworks */,
+				A9C4E1EA2B87BCAE00D443B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C4E1EE2B87BCAE00D443B3 /* PBXTargetDependency */,
+			);
+			name = CephriusExpenseTests;
+			productName = CephriusExpenseTests;
+			productReference = A9C4E1EC2B87BCAE00D443B3 /* CephriusExpenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A9C4E1F52B87BCAE00D443B3 /* CephriusExpenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9C4E2062B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpenseUITests" */;
+			buildPhases = (
+				A9C4E1F22B87BCAE00D443B3 /* Sources */,
+				A9C4E1F32B87BCAE00D443B3 /* Frameworks */,
+				A9C4E1F42B87BCAE00D443B3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9C4E1F82B87BCAE00D443B3 /* PBXTargetDependency */,
+			);
+			name = CephriusExpenseUITests;
+			productName = CephriusExpenseUITests;
+			productReference = A9C4E1F62B87BCAE00D443B3 /* CephriusExpenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9C4E1D42B87BCAC00D443B3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					A9C4E1DB2B87BCAC00D443B3 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					A9C4E1EB2B87BCAE00D443B3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A9C4E1DB2B87BCAC00D443B3;
+					};
+					A9C4E1F52B87BCAE00D443B3 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = A9C4E1DB2B87BCAC00D443B3;
+					};
+				};
+			};
+			buildConfigurationList = A9C4E1D72B87BCAC00D443B3 /* Build configuration list for PBXProject "CephriusExpense" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9C4E1D32B87BCAC00D443B3;
+			productRefGroup = A9C4E1DD2B87BCAC00D443B3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9C4E1DB2B87BCAC00D443B3 /* CephriusExpense */,
+				A9C4E1EB2B87BCAE00D443B3 /* CephriusExpenseTests */,
+				A9C4E1F52B87BCAE00D443B3 /* CephriusExpenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9C4E1DA2B87BCAC00D443B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C4E1E72B87BCAE00D443B3 /* Preview Assets.xcassets in Resources */,
+				A9C4E1E42B87BCAE00D443B3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C4E1EA2B87BCAE00D443B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C4E1F42B87BCAE00D443B3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9C4E1D82B87BCAC00D443B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C4E1E22B87BCAC00D443B3 /* ContentView.swift in Sources */,
+				A9C4E1E02B87BCAC00D443B3 /* CephriusExpenseApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C4E1E82B87BCAE00D443B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C4E1F12B87BCAE00D443B3 /* CephriusExpenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9C4E1F22B87BCAE00D443B3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9C4E1FD2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift in Sources */,
+				A9C4E1FB2B87BCAE00D443B3 /* CephriusExpenseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9C4E1EE2B87BCAE00D443B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C4E1DB2B87BCAC00D443B3 /* CephriusExpense */;
+			targetProxy = A9C4E1ED2B87BCAE00D443B3 /* PBXContainerItemProxy */;
+		};
+		A9C4E1F82B87BCAE00D443B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9C4E1DB2B87BCAC00D443B3 /* CephriusExpense */;
+			targetProxy = A9C4E1F72B87BCAE00D443B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A9C4E1FE2B87BCAE00D443B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A9C4E1FF2B87BCAE00D443B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9C4E2012B87BCAE00D443B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CephriusExpense/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.vercel.chi3dozie.CephriusExpense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A9C4E2022B87BCAE00D443B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CephriusExpense/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.vercel.chi3dozie.CephriusExpense;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A9C4E2042B87BCAE00D443B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.vercel.chi3dozie.CephriusExpenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CephriusExpense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CephriusExpense";
+			};
+			name = Debug;
+		};
+		A9C4E2052B87BCAE00D443B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.vercel.chi3dozie.CephriusExpenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CephriusExpense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CephriusExpense";
+			};
+			name = Release;
+		};
+		A9C4E2072B87BCAE00D443B3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.vercel.chi3dozie.CephriusExpenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CephriusExpense;
+			};
+			name = Debug;
+		};
+		A9C4E2082B87BCAE00D443B3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = app.vercel.chi3dozie.CephriusExpenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CephriusExpense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9C4E1D72B87BCAC00D443B3 /* Build configuration list for PBXProject "CephriusExpense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C4E1FE2B87BCAE00D443B3 /* Debug */,
+				A9C4E1FF2B87BCAE00D443B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C4E2002B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C4E2012B87BCAE00D443B3 /* Debug */,
+				A9C4E2022B87BCAE00D443B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C4E2032B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C4E2042B87BCAE00D443B3 /* Debug */,
+				A9C4E2052B87BCAE00D443B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9C4E2062B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9C4E2072B87BCAE00D443B3 /* Debug */,
+				A9C4E2082B87BCAE00D443B3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9C4E1D42B87BCAC00D443B3 /* Project object */;
+}
