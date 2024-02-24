@@ -44,7 +44,7 @@ To use the application:
 
 ## Contributors
 
-- [Your Name](https://github.com/Cephrius) - Project Lead & Developer
+- [Chiedozie Ehileme](https://github.com/Cephrius) - Project Lead & Developer
 
 ## License
 
