@@ -4,6 +4,8 @@
 
 This project is a financial management application designed to track spending and display transaction data in a user-friendly interface. The main features include a chart to visualize monthly spending, a transaction history display, category icons, and support for dark mode.
 
+![Previews](https://github.com/Cephrius/Expense-Tracker-/blob/main/CephriusExpense/Preview%20Content/Simulator%20Screenshot%20-%20iPhone%2015%20Pro%20-%202024-02-24%20at%2011.58.12.png)
+
 ## Features
 
 - **Chart Tracking:** Visualize monthly spending with an interactive chart that displays spending history.
