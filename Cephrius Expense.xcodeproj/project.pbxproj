@@ -47,13 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A9C4E1DC2B87BCAC00D443B3 /* CephriusExpense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CephriusExpense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C4E1DC2B87BCAC00D443B3 /* Cephrius Expense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cephrius Expense.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C4E1DF2B87BCAC00D443B3 /* CephriusExpenseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CephriusExpenseApp.swift; sourceTree = "<group>"; };
 		A9C4E1E12B87BCAC00D443B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9C4E1E32B87BCAE00D443B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C4E1E62B87BCAE00D443B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		A9C4E1EC2B87BCAE00D443B3 /* CephriusExpenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CephriusExpenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9C4E1F62B87BCAE00D443B3 /* CephriusExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CephriusExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C4E1EC2B87BCAE00D443B3 /* Cephrius ExpenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cephrius ExpenseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9C4E1F62B87BCAE00D443B3 /* Cephrius ExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cephrius ExpenseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9C4E2092B87BF4700D443B3 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
 		A9C4E20B2B87D77C00D443B3 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
 		A9C4E20F2B87D8EE00D443B3 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
@@ -94,7 +94,7 @@
 		A9C4E1D32B87BCAC00D443B3 = {
 			isa = PBXGroup;
 			children = (
-				A9C4E1DE2B87BCAC00D443B3 /* CephriusExpense */,
+				A9C4E1DE2B87BCAC00D443B3 /* Cephrius Expense */,
 				A9C4E1DD2B87BCAC00D443B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,14 +102,14 @@
 		A9C4E1DD2B87BCAC00D443B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9C4E1DC2B87BCAC00D443B3 /* CephriusExpense.app */,
-				A9C4E1EC2B87BCAE00D443B3 /* CephriusExpenseTests.xctest */,
-				A9C4E1F62B87BCAE00D443B3 /* CephriusExpenseUITests.xctest */,
+				A9C4E1DC2B87BCAC00D443B3 /* Cephrius Expense.app */,
+				A9C4E1EC2B87BCAE00D443B3 /* Cephrius ExpenseTests.xctest */,
+				A9C4E1F62B87BCAE00D443B3 /* Cephrius ExpenseUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A9C4E1DE2B87BCAC00D443B3 /* CephriusExpense */ = {
+		A9C4E1DE2B87BCAC00D443B3 /* Cephrius Expense */ = {
 			isa = PBXGroup;
 			children = (
 				A9C4E1DF2B87BCAC00D443B3 /* CephriusExpenseApp.swift */,
@@ -123,7 +123,7 @@
 				A9C4E1E32B87BCAE00D443B3 /* Assets.xcassets */,
 				A9C4E1E52B87BCAE00D443B3 /* Preview Content */,
 			);
-			path = CephriusExpense;
+			path = "Cephrius Expense";
 			sourceTree = "<group>";
 		};
 		A9C4E1E52B87BCAE00D443B3 /* Preview Content */ = {
@@ -138,9 +138,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9C4E1DB2B87BCAC00D443B3 /* CephriusExpense */ = {
+		A9C4E1DB2B87BCAC00D443B3 /* Cephrius Expense */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9C4E2002B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpense" */;
+			buildConfigurationList = A9C4E2002B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "Cephrius Expense" */;
 			buildPhases = (
 				A9C4E1D82B87BCAC00D443B3 /* Sources */,
 				A9C4E1D92B87BCAC00D443B3 /* Frameworks */,
@@ -150,19 +150,19 @@
 			);
 			dependencies = (
 			);
-			name = CephriusExpense;
+			name = "Cephrius Expense";
 			packageProductDependencies = (
 				A9C4E2182B88047900D443B3 /* SwiftUIFontIcon */,
 				A9C4E2232B89E37E00D443B3 /* Collections */,
 				A9C4E2262B8A550900D443B3 /* SwiftUICharts */,
 			);
 			productName = CephriusExpense;
-			productReference = A9C4E1DC2B87BCAC00D443B3 /* CephriusExpense.app */;
+			productReference = A9C4E1DC2B87BCAC00D443B3 /* Cephrius Expense.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A9C4E1EB2B87BCAE00D443B3 /* CephriusExpenseTests */ = {
+		A9C4E1EB2B87BCAE00D443B3 /* Cephrius ExpenseTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9C4E2032B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpenseTests" */;
+			buildConfigurationList = A9C4E2032B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "Cephrius ExpenseTests" */;
 			buildPhases = (
 				A9C4E1E82B87BCAE00D443B3 /* Sources */,
 				A9C4E1E92B87BCAE00D443B3 /* Frameworks */,
@@ -173,14 +173,14 @@
 			dependencies = (
 				A9C4E1EE2B87BCAE00D443B3 /* PBXTargetDependency */,
 			);
-			name = CephriusExpenseTests;
+			name = "Cephrius ExpenseTests";
 			productName = CephriusExpenseTests;
-			productReference = A9C4E1EC2B87BCAE00D443B3 /* CephriusExpenseTests.xctest */;
+			productReference = A9C4E1EC2B87BCAE00D443B3 /* Cephrius ExpenseTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A9C4E1F52B87BCAE00D443B3 /* CephriusExpenseUITests */ = {
+		A9C4E1F52B87BCAE00D443B3 /* Cephrius ExpenseUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9C4E2062B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpenseUITests" */;
+			buildConfigurationList = A9C4E2062B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "Cephrius ExpenseUITests" */;
 			buildPhases = (
 				A9C4E1F22B87BCAE00D443B3 /* Sources */,
 				A9C4E1F32B87BCAE00D443B3 /* Frameworks */,
@@ -191,9 +191,9 @@
 			dependencies = (
 				A9C4E1F82B87BCAE00D443B3 /* PBXTargetDependency */,
 			);
-			name = CephriusExpenseUITests;
+			name = "Cephrius ExpenseUITests";
 			productName = CephriusExpenseUITests;
-			productReference = A9C4E1F62B87BCAE00D443B3 /* CephriusExpenseUITests.xctest */;
+			productReference = A9C4E1F62B87BCAE00D443B3 /* Cephrius ExpenseUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -219,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9C4E1D72B87BCAC00D443B3 /* Build configuration list for PBXProject "CephriusExpense" */;
+			buildConfigurationList = A9C4E1D72B87BCAC00D443B3 /* Build configuration list for PBXProject "Cephrius Expense" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -237,9 +237,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9C4E1DB2B87BCAC00D443B3 /* CephriusExpense */,
-				A9C4E1EB2B87BCAE00D443B3 /* CephriusExpenseTests */,
-				A9C4E1F52B87BCAE00D443B3 /* CephriusExpenseUITests */,
+				A9C4E1DB2B87BCAC00D443B3 /* Cephrius Expense */,
+				A9C4E1EB2B87BCAE00D443B3 /* Cephrius ExpenseTests */,
+				A9C4E1F52B87BCAE00D443B3 /* Cephrius ExpenseUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -312,12 +312,12 @@
 /* Begin PBXTargetDependency section */
 		A9C4E1EE2B87BCAE00D443B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9C4E1DB2B87BCAC00D443B3 /* CephriusExpense */;
+			target = A9C4E1DB2B87BCAC00D443B3 /* Cephrius Expense */;
 			targetProxy = A9C4E1ED2B87BCAE00D443B3 /* PBXContainerItemProxy */;
 		};
 		A9C4E1F82B87BCAE00D443B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9C4E1DB2B87BCAC00D443B3 /* CephriusExpense */;
+			target = A9C4E1DB2B87BCAC00D443B3 /* Cephrius Expense */;
 			targetProxy = A9C4E1F72B87BCAE00D443B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -449,7 +449,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CephriusExpense/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cephrius Expense/Preview Content\"";
 				DEVELOPMENT_TEAM = 53FTZTU878;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -478,7 +478,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"CephriusExpense/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Cephrius Expense/Preview Content\"";
 				DEVELOPMENT_TEAM = 53FTZTU878;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -515,7 +515,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CephriusExpense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CephriusExpense";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cephrius Expense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cephrius Expense";
 			};
 			name = Debug;
 		};
@@ -534,7 +534,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CephriusExpense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CephriusExpense";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cephrius Expense.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cephrius Expense";
 			};
 			name = Release;
 		};
@@ -575,7 +575,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9C4E1D72B87BCAC00D443B3 /* Build configuration list for PBXProject "CephriusExpense" */ = {
+		A9C4E1D72B87BCAC00D443B3 /* Build configuration list for PBXProject "Cephrius Expense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9C4E1FE2B87BCAE00D443B3 /* Debug */,
@@ -584,7 +584,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9C4E2002B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpense" */ = {
+		A9C4E2002B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "Cephrius Expense" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9C4E2012B87BCAE00D443B3 /* Debug */,
@@ -593,7 +593,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9C4E2032B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpenseTests" */ = {
+		A9C4E2032B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "Cephrius ExpenseTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9C4E2042B87BCAE00D443B3 /* Debug */,
@@ -602,7 +602,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9C4E2062B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "CephriusExpenseUITests" */ = {
+		A9C4E2062B87BCAE00D443B3 /* Build configuration list for PBXNativeTarget "Cephrius ExpenseUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9C4E2072B87BCAE00D443B3 /* Debug */,

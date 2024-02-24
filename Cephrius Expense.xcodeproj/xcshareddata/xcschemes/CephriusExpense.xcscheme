@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A9C4E1DB2B87BCAC00D443B3"
-               BuildableName = "CephriusExpense.app"
-               BlueprintName = "CephriusExpense"
-               ReferencedContainer = "container:CephriusExpense.xcodeproj">
+               BuildableName = "Cephrius Expense.app"
+               BlueprintName = "Cephrius Expense"
+               ReferencedContainer = "container:Cephrius Expense.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,9 +35,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A9C4E1EB2B87BCAE00D443B3"
-               BuildableName = "CephriusExpenseTests.xctest"
-               BlueprintName = "CephriusExpenseTests"
-               ReferencedContainer = "container:CephriusExpense.xcodeproj">
+               BuildableName = "Cephrius ExpenseTests.xctest"
+               BlueprintName = "Cephrius ExpenseTests"
+               ReferencedContainer = "container:Cephrius Expense.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -46,9 +46,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "A9C4E1F52B87BCAE00D443B3"
-               BuildableName = "CephriusExpenseUITests.xctest"
-               BlueprintName = "CephriusExpenseUITests"
-               ReferencedContainer = "container:CephriusExpense.xcodeproj">
+               BuildableName = "Cephrius ExpenseUITests.xctest"
+               BlueprintName = "Cephrius ExpenseUITests"
+               ReferencedContainer = "container:Cephrius Expense.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -69,9 +69,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A9C4E1DB2B87BCAC00D443B3"
-            BuildableName = "CephriusExpense.app"
-            BlueprintName = "CephriusExpense"
-            ReferencedContainer = "container:CephriusExpense.xcodeproj">
+            BuildableName = "Cephrius Expense.app"
+            BlueprintName = "Cephrius Expense"
+            ReferencedContainer = "container:Cephrius Expense.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -86,9 +86,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "A9C4E1DB2B87BCAC00D443B3"
-            BuildableName = "CephriusExpense.app"
-            BlueprintName = "CephriusExpense"
-            ReferencedContainer = "container:CephriusExpense.xcodeproj">
+            BuildableName = "Cephrius Expense.app"
+            BlueprintName = "Cephrius Expense"
+            ReferencedContainer = "container:Cephrius Expense.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
