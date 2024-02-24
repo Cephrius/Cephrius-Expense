@@ -11,9 +11,22 @@
 		A9C4E1E22B87BCAC00D443B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1E12B87BCAC00D443B3 /* ContentView.swift */; };
 		A9C4E1E42B87BCAE00D443B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C4E1E32B87BCAE00D443B3 /* Assets.xcassets */; };
 		A9C4E1E72B87BCAE00D443B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9C4E1E62B87BCAE00D443B3 /* Preview Assets.xcassets */; };
-		A9C4E1F12B87BCAE00D443B3 /* CephriusExpenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1F02B87BCAE00D443B3 /* CephriusExpenseTests.swift */; };
-		A9C4E1FB2B87BCAE00D443B3 /* CephriusExpenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1FA2B87BCAE00D443B3 /* CephriusExpenseUITests.swift */; };
-		A9C4E1FD2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E1FC2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift */; };
+		A9C4E20A2B87BF4700D443B3 /* Extenstions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E2092B87BF4700D443B3 /* Extenstions.swift */; };
+		A9C4E20C2B87D77C00D443B3 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E20B2B87D77C00D443B3 /* TransactionModel.swift */; };
+		A9C4E20D2B87D77C00D443B3 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E20B2B87D77C00D443B3 /* TransactionModel.swift */; };
+		A9C4E20E2B87D77C00D443B3 /* TransactionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E20B2B87D77C00D443B3 /* TransactionModel.swift */; };
+		A9C4E2102B87D8EE00D443B3 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E20F2B87D8EE00D443B3 /* PreviewData.swift */; };
+		A9C4E2112B87D8EE00D443B3 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E20F2B87D8EE00D443B3 /* PreviewData.swift */; };
+		A9C4E2122B87D8EE00D443B3 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E20F2B87D8EE00D443B3 /* PreviewData.swift */; };
+		A9C4E2142B87DA3600D443B3 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E2132B87DA3600D443B3 /* TransactionRow.swift */; };
+		A9C4E2152B87DA3600D443B3 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E2132B87DA3600D443B3 /* TransactionRow.swift */; };
+		A9C4E2162B87DA3600D443B3 /* TransactionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E2132B87DA3600D443B3 /* TransactionRow.swift */; };
+		A9C4E2192B88047900D443B3 /* SwiftUIFontIcon in Frameworks */ = {isa = PBXBuildFile; productRef = A9C4E2182B88047900D443B3 /* SwiftUIFontIcon */; };
+		A9C4E21B2B8812FA00D443B3 /* TransactionListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E21A2B8812FA00D443B3 /* TransactionListViewModel.swift */; };
+		A9C4E21F2B89AD7D00D443B3 /* RecentTransactionsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E21E2B89AD7D00D443B3 /* RecentTransactionsList.swift */; };
+		A9C4E2212B89DD4F00D443B3 /* TransactionList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9C4E2202B89DD4F00D443B3 /* TransactionList.swift */; };
+		A9C4E2242B89E37E00D443B3 /* Collections in Frameworks */ = {isa = PBXBuildFile; productRef = A9C4E2232B89E37E00D443B3 /* Collections */; };
+		A9C4E2272B8A550900D443B3 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = A9C4E2262B8A550900D443B3 /* SwiftUICharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +53,14 @@
 		A9C4E1E32B87BCAE00D443B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9C4E1E62B87BCAE00D443B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A9C4E1EC2B87BCAE00D443B3 /* CephriusExpenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CephriusExpenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9C4E1F02B87BCAE00D443B3 /* CephriusExpenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CephriusExpenseTests.swift; sourceTree = "<group>"; };
 		A9C4E1F62B87BCAE00D443B3 /* CephriusExpenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CephriusExpenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9C4E1FA2B87BCAE00D443B3 /* CephriusExpenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CephriusExpenseUITests.swift; sourceTree = "<group>"; };
-		A9C4E1FC2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CephriusExpenseUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A9C4E2092B87BF4700D443B3 /* Extenstions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extenstions.swift; sourceTree = "<group>"; };
+		A9C4E20B2B87D77C00D443B3 /* TransactionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionModel.swift; sourceTree = "<group>"; };
+		A9C4E20F2B87D8EE00D443B3 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		A9C4E2132B87DA3600D443B3 /* TransactionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRow.swift; sourceTree = "<group>"; };
+		A9C4E21A2B8812FA00D443B3 /* TransactionListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionListViewModel.swift; sourceTree = "<group>"; };
+		A9C4E21E2B89AD7D00D443B3 /* RecentTransactionsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentTransactionsList.swift; sourceTree = "<group>"; };
+		A9C4E2202B89DD4F00D443B3 /* TransactionList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionList.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +68,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C4E2272B8A550900D443B3 /* SwiftUICharts in Frameworks */,
+				A9C4E2242B89E37E00D443B3 /* Collections in Frameworks */,
+				A9C4E2192B88047900D443B3 /* SwiftUIFontIcon in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,8 +95,6 @@
 			isa = PBXGroup;
 			children = (
 				A9C4E1DE2B87BCAC00D443B3 /* CephriusExpense */,
-				A9C4E1EF2B87BCAE00D443B3 /* CephriusExpenseTests */,
-				A9C4E1F92B87BCAE00D443B3 /* CephriusExpenseUITests */,
 				A9C4E1DD2B87BCAC00D443B3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -96,6 +114,12 @@
 			children = (
 				A9C4E1DF2B87BCAC00D443B3 /* CephriusExpenseApp.swift */,
 				A9C4E1E12B87BCAC00D443B3 /* ContentView.swift */,
+				A9C4E21E2B89AD7D00D443B3 /* RecentTransactionsList.swift */,
+				A9C4E2202B89DD4F00D443B3 /* TransactionList.swift */,
+				A9C4E2132B87DA3600D443B3 /* TransactionRow.swift */,
+				A9C4E21A2B8812FA00D443B3 /* TransactionListViewModel.swift */,
+				A9C4E20B2B87D77C00D443B3 /* TransactionModel.swift */,
+				A9C4E2092B87BF4700D443B3 /* Extenstions.swift */,
 				A9C4E1E32B87BCAE00D443B3 /* Assets.xcassets */,
 				A9C4E1E52B87BCAE00D443B3 /* Preview Content */,
 			);
@@ -106,25 +130,9 @@
 			isa = PBXGroup;
 			children = (
 				A9C4E1E62B87BCAE00D443B3 /* Preview Assets.xcassets */,
+				A9C4E20F2B87D8EE00D443B3 /* PreviewData.swift */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		A9C4E1EF2B87BCAE00D443B3 /* CephriusExpenseTests */ = {
-			isa = PBXGroup;
-			children = (
-				A9C4E1F02B87BCAE00D443B3 /* CephriusExpenseTests.swift */,
-			);
-			path = CephriusExpenseTests;
-			sourceTree = "<group>";
-		};
-		A9C4E1F92B87BCAE00D443B3 /* CephriusExpenseUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A9C4E1FA2B87BCAE00D443B3 /* CephriusExpenseUITests.swift */,
-				A9C4E1FC2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift */,
-			);
-			path = CephriusExpenseUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +151,11 @@
 			dependencies = (
 			);
 			name = CephriusExpense;
+			packageProductDependencies = (
+				A9C4E2182B88047900D443B3 /* SwiftUIFontIcon */,
+				A9C4E2232B89E37E00D443B3 /* Collections */,
+				A9C4E2262B8A550900D443B3 /* SwiftUICharts */,
+			);
 			productName = CephriusExpense;
 			productReference = A9C4E1DC2B87BCAC00D443B3 /* CephriusExpense.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +228,11 @@
 				Base,
 			);
 			mainGroup = A9C4E1D32B87BCAC00D443B3;
+			packageReferences = (
+				A9C4E2172B88047900D443B3 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */,
+				A9C4E2222B89E34F00D443B3 /* XCRemoteSwiftPackageReference "swift-collections" */,
+				A9C4E2252B8A550900D443B3 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = A9C4E1DD2B87BCAC00D443B3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -257,7 +275,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C4E2102B87D8EE00D443B3 /* PreviewData.swift in Sources */,
+				A9C4E2212B89DD4F00D443B3 /* TransactionList.swift in Sources */,
+				A9C4E20C2B87D77C00D443B3 /* TransactionModel.swift in Sources */,
 				A9C4E1E22B87BCAC00D443B3 /* ContentView.swift in Sources */,
+				A9C4E2142B87DA3600D443B3 /* TransactionRow.swift in Sources */,
+				A9C4E20A2B87BF4700D443B3 /* Extenstions.swift in Sources */,
+				A9C4E21F2B89AD7D00D443B3 /* RecentTransactionsList.swift in Sources */,
+				A9C4E21B2B8812FA00D443B3 /* TransactionListViewModel.swift in Sources */,
 				A9C4E1E02B87BCAC00D443B3 /* CephriusExpenseApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,7 +291,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C4E1F12B87BCAE00D443B3 /* CephriusExpenseTests.swift in Sources */,
+				A9C4E20D2B87D77C00D443B3 /* TransactionModel.swift in Sources */,
+				A9C4E2152B87DA3600D443B3 /* TransactionRow.swift in Sources */,
+				A9C4E2112B87D8EE00D443B3 /* PreviewData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +301,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9C4E1FD2B87BCAE00D443B3 /* CephriusExpenseUITestsLaunchTests.swift in Sources */,
-				A9C4E1FB2B87BCAE00D443B3 /* CephriusExpenseUITests.swift in Sources */,
+				A9C4E2162B87DA3600D443B3 /* TransactionRow.swift in Sources */,
+				A9C4E2122B87D8EE00D443B3 /* PreviewData.swift in Sources */,
+				A9C4E20E2B87D77C00D443B3 /* TransactionModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +450,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CephriusExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = 53FTZTU878;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -450,6 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CephriusExpense/Preview Content\"";
+				DEVELOPMENT_TEAM = 53FTZTU878;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -582,6 +612,51 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A9C4E2172B88047900D443B3 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/huybuidac/SwiftUIFontIcon";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+		A9C4E2222B89E34F00D443B3 /* XCRemoteSwiftPackageReference "swift-collections" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-collections.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		A9C4E2252B8A550900D443B3 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = exactVersion;
+				version = "2.0.0-beta.2";
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A9C4E2182B88047900D443B3 /* SwiftUIFontIcon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9C4E2172B88047900D443B3 /* XCRemoteSwiftPackageReference "SwiftUIFontIcon" */;
+			productName = SwiftUIFontIcon;
+		};
+		A9C4E2232B89E37E00D443B3 /* Collections */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9C4E2222B89E34F00D443B3 /* XCRemoteSwiftPackageReference "swift-collections" */;
+			productName = Collections;
+		};
+		A9C4E2262B8A550900D443B3 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A9C4E2252B8A550900D443B3 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A9C4E1D42B87BCAC00D443B3 /* Project object */;
 }
