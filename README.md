@@ -1,7 +1,4 @@
-## Cephrius Expense
-
-## Overview
-
+# Cephrius Expense
 This project is a financial management application designed to track spending and display transaction data in a user-friendly interface. The main features include a chart to visualize monthly spending, a transaction history display, category icons, and support for dark mode.
 
 ![Previews](https://github.com/Cephrius/Expense-Tracker-/blob/main/CephriusExpense/Preview%20Content/New%20Project.png)
